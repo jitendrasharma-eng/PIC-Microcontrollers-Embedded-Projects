@@ -1,0 +1,68 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"23 D:\ambedde system with 8051\embedded system with pic microcontroller\SPI communication between 2 mcu\SPI_slave.X\SPI_slave.c
+[v _SPI_Slave_Init SPI_Slave_Init `(v  1 e 1 0 ]
+"36
+[v _SPI_Slave_Read SPI_Slave_Read `(uc  1 e 1 0 ]
+"50
+[v _main main `(v  1 e 1 0 ]
+"217 C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC16Fxxx_DFP/1.3.42/xc8\pic\include\proc\pic16f877a.h
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+[s S32 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"234
+[u S41 . 1 `S32 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES41  1 e 1 @6 ]
+"809
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @19 ]
+"816
+[v _SSPCON SSPCON `VEuc  1 e 1 @20 ]
+"1376
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1831
+[v _SSPSTAT SSPSTAT `VEuc  1 e 1 @148 ]
+"2829
+[v _SSPIF SSPIF `VEb  1 e 0 @99 ]
+"2937
+[v _TRISA5 TRISA5 `VEb  1 e 0 @1069 ]
+"2973
+[v _TRISC3 TRISC3 `VEb  1 e 0 @1083 ]
+"2976
+[v _TRISC4 TRISC4 `VEb  1 e 0 @1084 ]
+"2979
+[v _TRISC5 TRISC5 `VEb  1 e 0 @1085 ]
+"50 D:\ambedde system with 8051\embedded system with pic microcontroller\SPI communication between 2 mcu\SPI_slave.X\SPI_slave.c
+[v _main main `(v  1 e 1 0 ]
+{
+"57
+[v main@receved_data receved_data `uc  1 a 1 0 ]
+"71
+} 0
+"36
+[v _SPI_Slave_Read SPI_Slave_Read `(uc  1 e 1 0 ]
+{
+"41
+} 0
+"23
+[v _SPI_Slave_Init SPI_Slave_Init `(v  1 e 1 0 ]
+{
+"32
+} 0
